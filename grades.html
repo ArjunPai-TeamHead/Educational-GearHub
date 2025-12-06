@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <title>GEAR HUB — Performance</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>:root{--bg-primary:#020617;--text-primary:#F8FAFC}body{background:var(--bg-primary);color:var(--text-primary);font-family:Inter,sans-serif}</style>
+</head>
+<body>
+  <div class="min-h-screen p-8">
+    <div class="flex justify-between items-center mb-2">
+      <h2 class="text-3xl font-bold text-white">My Performance</h2>
+    </div>
+    <div class="space-y-6">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+        <div class="rounded-[2rem] border border-white/10 p-6 h-[450px]">
+          <h3 class="text-lg font-bold text-white mb-6">Score Distribution</h3>
+          <div class="w-full h-full flex items-center justify-center text-slate-500">Chart placeholder</div>
+        </div>
+        <div class="rounded-[2rem] border border-white/10 overflow-hidden p-0 h-[450px]">
+          <div class="p-6 border-b border-white/5 flex justify-between items-center">
+            <h3 class="text-lg font-bold text-white">Records</h3>
+            <button class="text-xs text-slate-400 hover:text-white flex items-center gap-1">✏️ Edit</button>
+          </div>
+          <div class="overflow-y-auto p-2">
+            <table class="w-full text-left text-sm text-slate-300">
+              <thead class="text-xs uppercase bg-white/5 text-slate-500 font-bold sticky top-0">
+                <tr>
+                  <th class="px-4 py-3 rounded-l-lg">Subject</th>
+                  <th class="px-4 py-3">Assessment</th>
+                  <th class="px-4 py-3">Score</th>
+                  <th class="px-4 py-3 rounded-r-lg">Grade</th>
+                </tr>
+              </thead>
+              <tbody class="divide-y divide-white/5">
+                <tr class="hover:bg-white/5 transition-colors">
+                  <td class="px-4 py-4 font-bold text-white">Math</td>
+                  <td class="px-4 py-4 text-slate-400">Midterm</td>
+                  <td class="px-4 py-4"><span class="text-xs">85/100</span></td>
+                  <td class="px-4 py-4 font-bold text-cyan-400 text-lg">B+</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
