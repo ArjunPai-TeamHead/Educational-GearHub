@@ -1,4 +1,4 @@
-#Educational-GearHub
+# Educational-GearHub
 **Educational-GearHub** is a web-based project developed fully in HTML. It is designed to provide educational resources, tools, or interactive content via an easy-to-access platform—all you need is a web browser.
 
 ## Features
